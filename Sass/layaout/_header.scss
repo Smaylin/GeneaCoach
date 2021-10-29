@@ -1,0 +1,43 @@
+// Style header
+#header{
+
+    width: 100%;
+    height: 80px;
+    background: #4054B2;
+
+    display: flex;
+    justify-content: space-between;
+
+    .Container-nav-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+        margin-left: 100px;
+        a{
+            color:#FFFFFF;
+            text-decoration: none;
+        }
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+        
+        
+        .List{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            
+            margin: 0px;
+            
+            .nav_item, li, a {
+                color:#FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+}
