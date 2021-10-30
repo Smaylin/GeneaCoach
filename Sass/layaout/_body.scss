@@ -1,6 +1,11 @@
 @import '../utilities/variables';
 
 body{
+    .Title-divs{
+        font-size: x-large;
+        font-weight: bolder;
+        margin-bottom: 50px;
+    }
 
     .banner{
         width: 100%;
@@ -32,16 +37,16 @@ body{
         
     }
 
+    // About-us Style
     .About-us{
+        margin: 50px 0px 100px;
+
         .us{
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 50px;
-            span{
-                font-size: x-large;
-                font-weight: bolder;
-            }
+            
+
         }
 
 
@@ -67,6 +72,80 @@ body{
 
         }
     }
+
+    //Curso Style
+    .container-curso{
+        margin: 50px 0px 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Grid-curso{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 100px;
+
+            [class^="curso-"]{
+                height: 500px;
+                width: 350px;
+                background: $white;
+                border: 1px solid #000000;
+                box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+                border-radius: $border-r-div;
+                overflow: hidden;
+
+                // display: flex;
+                // justify-content: space-around;
+                // align-items: center;
+                // flex-direction: column;
+
+                .Div-Curso-img{
+
+                    img{
+                        width: 350px; 
+                    }
+                }
+                .Div-title{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .Title-curso{
+                        margin-top: 10px;
+                        font-size: large;
+                        // font-weight: bolder;
+                    }
+
+                }
+                .Description{
+
+                    p{
+                        margin: 30px 20px 0px;
+                    }
+                }
+                .Button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    margin-top: 30px;
+                }
+                .Precio{
+                    display: flex;
+                    justify-content: center;
+                    color: $blueDark;
+                    font-weight: 500;
+
+                    margin-top: 20px;
+                }
+            }
+            
+        }
+
+    }
+
 
 
 }
