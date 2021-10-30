@@ -42,7 +42,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-#sign-in-btn {
+#Button-1 {
   text-decoration: none;
   background: #4054B2;
   color: #FFFFFF;
@@ -52,12 +52,12 @@
   transition: 0.3s ease all;
 }
 
-#sign-in-btn:hover {
-  background: #FFFFFF;
-  color: #4054B2;
+#Button-1:hover {
+  background: #28377C;
+  color: #FFFFFF;
 }
 
-#free-btn {
+#Button-2 {
   text-decoration: none;
   background: #FFFFFF;
   color: #4054B2;
@@ -67,7 +67,7 @@
   transition: 0.3s ease all;
 }
 
-#free-btn:hover {
+#Button-2:hover {
   background: #84D95C;
   color: #FFFFFF;
 }
@@ -77,6 +77,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+body .Title-divs {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
 body .banner {
   width: 100%;
   height: 500px;
@@ -94,15 +99,13 @@ body .banner div .Div-text .text {
   color: #FFFFFF;
   font-size: x-large;
 }
+body .About-us {
+  margin: 50px 0px 100px;
+}
 body .About-us .us {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
-}
-body .About-us .us span {
-  font-size: x-large;
-  font-weight: bolder;
 }
 body .About-us .Div-about-us {
   display: flex;
@@ -116,6 +119,56 @@ body .About-us .Div-about-us .img-us {
 }
 body .About-us .Div-about-us .Parrafo {
   margin: 30px 50px;
+}
+body .container-curso {
+  margin: 50px 0px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .container-curso .Grid-curso {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+body .container-curso .Grid-curso [class^=curso-] {
+  height: 500px;
+  width: 350px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+body .container-curso .Grid-curso [class^=curso-] .Div-Curso-img img {
+  width: 350px;
+}
+body .container-curso .Grid-curso [class^=curso-] .Div-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container-curso .Grid-curso [class^=curso-] .Div-title .Title-curso {
+  margin-top: 10px;
+  font-size: large;
+}
+body .container-curso .Grid-curso [class^=curso-] .Description p {
+  margin: 30px 20px 0px;
+}
+body .container-curso .Grid-curso [class^=curso-] .Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+body .container-curso .Grid-curso [class^=curso-] .Precio {
+  display: flex;
+  justify-content: center;
+  color: #4054B2;
+  font-weight: 500;
+  margin-top: 20px;
 }
 
 * {
