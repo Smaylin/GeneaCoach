@@ -12,22 +12,22 @@
 <body>
 
 
-    <form action="" class="form-box">
+    <form action="php/INSERT.php" class="form-box" method="post">
         <h5>Logo de la pagina</h5>
         <h5>botones de login y register</h5>
         <label for="nombre" class="lbnombre" style="color: #4054B2;">Nombre</label><br>
-        <input type="text" placeholder="Ingrese su nombre" class="fNombres"><br>
+        <input type="text" placeholder="Ingrese su nombre" class="fNombres" name="Nombre"><br>
         <br>
         <label for="apellido" class="lbapellido" style="color: #4054B2;">Apellido</label><br>
-        <input type="text" placeholder="Ingrese su apellido" class="fApellidos"><br>
+        <input type="text" placeholder="Ingrese su apellido" class="fApellidos" name="Apellido"><br>
         <br>
         <label for="Correo" class="lbcorreo" style="color: #4054B2;">Correo Electr&oacute;nico </label><br>
-        <input type="email" placeholder="Ejemplo@gmail.com" class="fCorreo"><br>
+        <input type="email" placeholder="Ejemplo@gmail.com" class="fCorreo" name="Correo"><br>
         <br>
         <label for="Contraseña" class="lbcontraseña" style="color: #4054B2;">Contraseña</label><br>
-        <input type="password" placeholder="Ingrese su contraseña" class="fContraseña"><br>
+        <input type="password" placeholder="Ingrese su contraseña" class="fContraseña" name="Passwd"><br>
         <br>
-        <input type="submit" value="Crear cuenta" class="btnEnviar" style="color: white;">
+        <input type="submit" value="Crear cuenta" class="btnEnviar" name="btnEnviar" style="color: white;">
         <br>
         <br>
         <h4>¿Ya tienes una cuenta?<a href="">Inicia Sesi&oacute;n</a></h4>
