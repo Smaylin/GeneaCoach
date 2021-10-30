@@ -1,6 +1,6 @@
 //Button Sign in
 @import '../utilities/variables';
-#sign-in-btn{
+#Button-1{
     text-decoration: none;
 
     background: $blueDark;
@@ -10,14 +10,14 @@
     border-radius: $border-r-btn;
     transition: 0.3s ease all;
 }
-#sign-in-btn:hover{
-    background: $white;
-    color: $blueDark;
+#Button-1:hover{
+    background: $Hover-color;
+    color: $white;
 }
 
 
 //Button Empieza gratis
-#free-btn{
+#Button-2{
     text-decoration: none;
 
     background: $white;
@@ -27,7 +27,7 @@
     border-radius: 5px;
     transition: 0.3s ease all;
 }
-#free-btn:hover{
+#Button-2:hover{
     background: $green;
     color: $white;
     
