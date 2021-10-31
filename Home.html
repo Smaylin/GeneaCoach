@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap Css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -48,6 +49,10 @@
         </ul>
 
         <div class="Botones">
+          <form action="">
+            <input class="search" type="search" placeholder="Buscar curso ">
+          </form>
+          
           <a id="Button-1" href="#">Inciar seccion</a>
           <a id="Button-2" href="#">Comienza gratis</a>
         </div>
@@ -295,5 +300,65 @@
       <!-- END DIV GRID -->
     </section>
     <!-- End-Curso -->
+
+    <section class="Contact-form">
+      <div class="Contact-form-grid">
+
+        <div class="img-lateral">
+          <img src="/assets/img/bg-masthead.jpg" alt="" />
+        </div>
+
+        <div class="Blue-panel">
+
+        </div>
+
+        <form class="form" action="">
+          <span>Formulario de contacto</span>
+          <div id="div-name-tel">
+            <div>
+              <label for="name" id="Lb-name">Nombre completo</label><br>
+              <input type="text" id="Input-name" name="name"><br>
+            </div>
+
+            <div>
+              <label for="tel" id="Lb-tel">Numero telefonico</label><br>
+              <input type="tel" id="Input-tel" name="tel">
+            </div>
+          </div>
+
+          <div id="div-email">
+            <div>
+              <label for="email" id="Lb-email">Correo Electronico</label><br>
+              <input type="email" id="Input-email" name="email">
+            </div>
+          </div>
+
+          <div id="div-mesage">
+            <div>
+              <label for="mesage" id="Lb-mesage">Mensaje</label><br>
+              <textarea name="mesage" id="Input-mesage" cols="10" rows="8"></textarea>
+            </div>
+          </div>
+
+          <div id="div-button">
+            <button type="submit">Enviar</button>
+          </div>
+          
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <span>
+          © Todos los derechos reservados geneacoach 2021
+        </span>
+      </div>
+      <div>
+        <a href="#">English</a>
+      </div>
+    </footer>
+    <!-- End-Footer -->
   </body>
 </html>
