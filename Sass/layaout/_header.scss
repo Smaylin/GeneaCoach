@@ -26,6 +26,26 @@
         display: flex;
         align-items: center;
         margin-right: 100px;
+
+        .Botones{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            form{
+                .search{
+                    outline: none;
+                    border-radius: $border-r-div;
+                    border: none;
+                    .search::placeholder{
+                         font-family: "Font Awesome 5 Free";
+                          font-weight: 900;
+                          
+
+                     }
+                }
+            }
+        }
         
         
         .List{
