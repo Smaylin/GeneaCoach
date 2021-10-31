@@ -26,6 +26,20 @@
   align-items: center;
   margin-right: 100px;
 }
+#header .nav .Botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .nav .Botones form .search {
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+#header .nav .Botones form .search .search::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
 #header .nav .List {
   display: flex;
   align-items: center;
