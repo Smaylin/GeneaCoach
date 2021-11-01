@@ -14,7 +14,7 @@
     />
     <!-- -- -->
     <!-- Style -->
-    <link rel="stylesheet" href="Css/Style.css" />
+    <link rel="stylesheet" href="Css/Home.css" />
     <!-- -- -->
     <!-- Bootstrap Script -->
     <script
@@ -103,11 +103,11 @@
         <!-- CURSO 1 -->
         <div class="curso-1">
           <div class="Div-Curso-img">
-          <img src="assets/img/portfolio/fullsize/1.jpg" alt="" />
+          <img src="assets/img/portfolio/fullsize/3.jpg" alt="" />
           </div>
 
           <div class="Div-title">
-            <span class="Title-curso">Fotografia</span>
+            <span class="Title-curso">Fotograf&iacute;a</span>
           </div>
 
           <div class="Description">
@@ -134,7 +134,7 @@
           </div>
 
           <div class="Div-title">
-            <span class="Title-curso">Fotografia</span>
+            <span class="Title-curso">Fotograf&iacute;a</span>
           </div>
 
           <div class="Description">
@@ -161,7 +161,7 @@
           </div>
 
           <div class="Div-title">
-            <span class="Title-curso">Fotografia</span>
+            <span class="Title-curso">Fotograf&iacute;a</span>
           </div>
 
           <div class="Description">
@@ -188,7 +188,7 @@
           </div>
 
           <div class="Div-title">
-            <span class="Title-curso">Fotografia</span>
+            <span class="Title-curso">Fotograf&iacute;a</span>
           </div>
 
           <div class="Description">
@@ -215,7 +215,7 @@
           </div>
 
           <div class="Div-title">
-            <span class="Title-curso">Fotografia</span>
+            <span class="Title-curso">Fotograf&iacute;a</span>
           </div>
 
           <div class="Description">
@@ -242,7 +242,7 @@
           </div>
 
           <div class="Div-title">
-            <span class="Title-curso">Fotografia</span>
+            <span class="Title-curso">Fotograf&iacute;a</span>
           </div>
 
           <div class="Description">
