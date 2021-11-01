@@ -103,7 +103,7 @@
         <!-- CURSO 1 -->
         <div class="curso-1">
           <div class="Div-Curso-img">
-            <img src="<?php echo $serverUrl ?>assets/curso.jpg" alt="imagen de la propiedad">
+          <img src="assets/img/portfolio/fullsize/1.jpg" alt="" />
           </div>
 
           <div class="Div-title">
@@ -130,7 +130,7 @@
         <!-- CURSO 2 -->
         <div class="curso-2">
           <div class="Div-Curso-img">
-            <img src="/assets/img/portfolio/thumbnails/3.jpg" alt="" />
+          <img src="assets/img/portfolio/fullsize/1.jpg" alt="" />
           </div>
 
           <div class="Div-title">
@@ -157,7 +157,7 @@
         <!-- CURSO 3 -->
         <div class="curso-3">
           <div class="Div-Curso-img">
-            <img src="/assets/img/portfolio/thumbnails/3.jpg" alt="" />
+          <img src="assets/img/portfolio/fullsize/1.jpg" alt="" />
           </div>
 
           <div class="Div-title">
@@ -184,7 +184,7 @@
         <!-- CURSO 4 -->
         <div class="curso-4">
           <div class="Div-Curso-img">
-            <img src="/assets/img/portfolio/thumbnails/3.jpg" alt="" />
+          <img src="assets/img/portfolio/fullsize/1.jpg" alt="" />
           </div>
 
           <div class="Div-title">
@@ -211,7 +211,7 @@
         <!-- CURSO 5 -->
         <div class="curso-5">
           <div class="Div-Curso-img">
-            <img src="/assets/img/portfolio/thumbnails/3.jpg" alt="" />
+          <img src="assets/img/portfolio/fullsize/1.jpg" alt="" />
           </div>
 
           <div class="Div-title">
@@ -238,7 +238,7 @@
         <!-- CURSO 6 -->
         <div class="curso-6">
           <div class="Div-Curso-img">
-            <img src="/assets/img/portfolio/thumbnails/3.jpg" alt="" />
+            <img src="assets/img/portfolio/fullsize/1.jpg" alt="" />
           </div>
 
           <div class="Div-title">
@@ -273,7 +273,7 @@
       <div class="Contact-form-grid">
         <!-- Side picture -->
         <div class="img-lateral">
-          <img src="/assets/img/bg-masthead.jpg" alt="" />
+          <img src="assets/img/bg-masthead.jpg" alt="" />
         </div>
         <!-- End Side picture -->
 
