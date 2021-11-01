@@ -1,0 +1,11 @@
+Utilizaremos camelcase
+sistema comercial
+sistema aplicativo 
+lenny
+frontend
+movelfront
+desponsebv
+Backend viedos incriptado que no se puedan descargar y mp4
+ssl activo
+sistema de blog y sistema de profesores
+pwa 
