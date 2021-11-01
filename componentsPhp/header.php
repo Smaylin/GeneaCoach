@@ -1,13 +1,12 @@
+<!-- Header -->
 <header id="header">
-    <!-- Nav -->
-    <div class="Container-nav-logo">
-      <img src="assets/Icon.png" alt="Logo">
-      <a href="Home.html" class="Logo">GeneaCoach</a>
-    </div>
-    
-    
-    
-    <nav class="nav">
+      <div class="Container-nav-logo">
+        <img src="assets/Icon.png" alt="Logo" />
+        <a href="Home.html" class="Logo">GeneaCoach</a>
+      </div>
+
+      <!-- Nav -->
+      <nav class="nav">
         <ul class="List">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Curso</a>
@@ -21,14 +20,19 @@
         </ul>
 
         <div class="Botones">
-          <a id="sign-in-btn" href="#">Inciar seccion</a>
-          <a id="free-btn" href="#">Comienza gratis</a>
+          <form action="">
+            <input class="search" type="search" placeholder="Buscar curso ">
+          </form>
+          
+          <a id="Button-1" href="#">Inciar seccion</a>
+          <a id="Button-2" href="#">Comienza gratis</a>
         </div>
         <!-- <form action="">
           <button id="sign-in-btn">Inciar seccion</button>
           <button id="free-btn">Comienza gratis</button>
         </form> -->
-    </nav>
+      </nav>
 
       <!-- End Nav -->
     </header>
+    <!-- End Header -->
